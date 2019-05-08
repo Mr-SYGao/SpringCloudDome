@@ -4,4 +4,4 @@ SpringCloud+Eureka+Ribbon+Hystrix+Zuul 搭建的Demo工程。<br/>
 另外还增加了Hystrix熔断器。利用Ribbon实现了负载均衡。
 
 ***
-#####2019-05-08 增加了Zuul网关路由
+2019-05-08 增加了Zuul网关路由
