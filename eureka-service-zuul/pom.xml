@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.GaoJian</groupId>
-    <artifactId>eureka-service-ribbon</artifactId>
+    <artifactId>eureka-service-zuul</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-service-ribbon</name>
+    <name>eureka-service-zuul</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,14 +22,8 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-javanica</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
 
         <dependency>
@@ -42,7 +36,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <dependencyManagement>
